@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BIC21203 Lab 4a - Q3</title>
+    </head>
+    <body>
+        <p>Please click "Generate" to display a numbered list from 1 to 5 </p>
+        <button id="generateBtn" type="button">Generate</button>
+        <ol id="numberList"></ol>
+
+        <script>
+            //DOM elements
+            const generateBtn = document.getElementById("generateBtn");
+            const numberList = document.getElementById("numberList");
+
+            //Register a click event listener
+            generateBtn.addEventListener("click", generateNumbers);
+
+            function generateNumbers()
+            {
+                //Clear existing items
+                numberList.innerHTML = "";
+
+                for (let i = 1; i <= 5; i++)
+                {                                    
+                    //Create element for order list
+                    const li = document.createElement("li");
+                    
+                    //Add context in each order list
+                    li.textContent = "The number is " + i;
+
+                    //Make appendChild to ol
+                    numberList.appendChild(li);
+                }
+            }
+        </script>
+    </body>
+</html>

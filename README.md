@@ -51,8 +51,3 @@ This laboratory exercise covers core modern client-side JavaScript concepts incl
 - **Output:**
   ![Question 3 Output - before](screenshots/Q3%20before.png)
   ![Question 3 Output - after](screenshots/Q3%20after.png)
-
-&#x20; !\[Question 3 Output - before](screenshots/Q3 before.png)
-
-&#x20; !\[Question 3 Output - after](screenshots/Q3 after.png)
-
